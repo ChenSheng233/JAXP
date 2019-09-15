@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE note [<!--定义此文档是 note 类型的文档-->
+<!ELEMENT note (to,from,head,body)><!--定义note元素有四个元素-->
+<!ELEMENT to (#PCDATA)><!--定义to元素为”#PCDATA”类型-->
+<!ELEMENT from (#PCDATA)><!--定义from元素为”#PCDATA”类型-->
+<!ELEMENT head (#PCDATA)><!--定义head元素为”#PCDATA”类型-->
+<!ELEMENT body (#PCDATA)><!--定义body元素为”#PCDATA”类型-->
+]>
+<note>
+<to>123</to>
+<from>123</from>
+<head>123</head>
+<body>123</body>
+</note>
